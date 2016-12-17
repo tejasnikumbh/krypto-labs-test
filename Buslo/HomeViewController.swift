@@ -147,8 +147,8 @@ extension HomeViewController: CLLocationManagerDelegate {
         print("locations = \(locValue.latitude) \(locValue.longitude)")
         userLocation = CLLocation(latitude: locValue.latitude, longitude: locValue.longitude)
         // Make sure you put userLocation here in prod.
-        centerMap(location: abuDhabiLocation)
-        downloadBusStopsFromServer(location: abuDhabiLocation, radius: initialRegionRadius,
+        centerMap(location: userLocation)
+        downloadBusStopsFromServer(location: userLocation, radius: initialRegionRadius,
                                    completion: nil)
         // Makes sure this method [didUpdateLocation] is called only 
         // when there are significant changes
