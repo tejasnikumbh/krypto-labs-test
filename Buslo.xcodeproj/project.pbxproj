@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C04F5007E916030B160FC7E /* Pods_BusloTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6093C8FCFEEA2C4FD212FF /* Pods_BusloTests.framework */; };
+		CC49A6D51E03CF6000880EEA /* BusStopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC49A6D41E03CF6000880EEA /* BusStopViewController.swift */; };
+		CC49A6D71E04086000880EEA /* BBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC49A6D61E04086000880EEA /* BBus.swift */; };
+		CC49A6DA1E04147200880EEA /* BusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC49A6D91E04147200880EEA /* BusTableViewCell.swift */; };
+		CC49A6DD1E042A5900880EEA /* loader.gif in Resources */ = {isa = PBXBuildFile; fileRef = CC49A6DC1E042A5900880EEA /* loader.gif */; };
+		CC49A6DF1E043D0200880EEA /* BusDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC49A6DE1E043D0200880EEA /* BusDetailsViewController.swift */; };
+		CC49A6E11E045FA000880EEA /* BRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC49A6E01E045FA000880EEA /* BRoute.swift */; };
 		CC772A681E02A23A0051DD70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC772A671E02A23A0051DD70 /* AppDelegate.swift */; };
 		CC772A6A1E02A23A0051DD70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC772A691E02A23A0051DD70 /* ViewController.swift */; };
 		CC772A6D1E02A23A0051DD70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC772A6B1E02A23A0051DD70 /* Main.storyboard */; };
@@ -14,6 +21,15 @@
 		CC772A721E02A23A0051DD70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC772A701E02A23A0051DD70 /* LaunchScreen.storyboard */; };
 		CC772A7D1E02A23A0051DD70 /* BusloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC772A7C1E02A23A0051DD70 /* BusloTests.swift */; };
 		CC772A881E02A23A0051DD70 /* BusloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC772A871E02A23A0051DD70 /* BusloUITests.swift */; };
+		CC772A961E02A74A0051DD70 /* BReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC772A951E02A74A0051DD70 /* BReachability.swift */; };
+		CC772A981E02A7A60051DD70 /* BProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC772A971E02A7A60051DD70 /* BProtocols.swift */; };
+		CC772A9A1E02AD0C0051DD70 /* BUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC772A991E02AD0C0051DD70 /* BUtils.swift */; };
+		CC772A9D1E02AE880051DD70 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC772A9C1E02AE880051DD70 /* HomeViewController.swift */; };
+		CC772AA01E02AEF80051DD70 /* BConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC772A9F1E02AEF80051DD70 /* BConstants.swift */; };
+		CC772AA31E02C0940051DD70 /* BBusStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC772AA21E02C0940051DD70 /* BBusStop.swift */; };
+		CCE9EE491E051A5200B389D7 /* BLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE9EE481E051A5200B389D7 /* BLocation.swift */; };
+		D6A43743BADE2000F9CA7B74 /* Pods_Buslo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2F15076BB2980916D3281A /* Pods_Buslo.framework */; };
+		E8BD1CA8C1D215E20CCD2131 /* Pods_BusloUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A85BE9A63C99EB51D97B354F /* Pods_BusloUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D857A35ADF2DFA572BF70F5 /* Pods-Buslo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buslo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Buslo/Pods-Buslo.debug.xcconfig"; sourceTree = "<group>"; };
+		5C2F15076BB2980916D3281A /* Pods_Buslo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Buslo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		738A1C93D391341A2311430D /* Pods-BusloUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusloUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BusloUITests/Pods-BusloUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C7ED7D80822525230B90B1A /* Pods-Buslo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buslo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Buslo/Pods-Buslo.release.xcconfig"; sourceTree = "<group>"; };
+		7ED1351D337C6523454B5A2A /* Pods-BusloTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusloTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BusloTests/Pods-BusloTests.release.xcconfig"; sourceTree = "<group>"; };
+		7F7B07A3CF2B131725849803 /* Pods-BusloUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusloUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BusloUITests/Pods-BusloUITests.release.xcconfig"; sourceTree = "<group>"; };
+		86342CF443DE32F72B1B8F22 /* Pods-BusloTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusloTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BusloTests/Pods-BusloTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A85BE9A63C99EB51D97B354F /* Pods_BusloUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BusloUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC49A6D41E03CF6000880EEA /* BusStopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopViewController.swift; sourceTree = "<group>"; };
+		CC49A6D61E04086000880EEA /* BBus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBus.swift; sourceTree = "<group>"; };
+		CC49A6D91E04147200880EEA /* BusTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusTableViewCell.swift; sourceTree = "<group>"; };
+		CC49A6DC1E042A5900880EEA /* loader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loader.gif; sourceTree = "<group>"; };
+		CC49A6DE1E043D0200880EEA /* BusDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusDetailsViewController.swift; sourceTree = "<group>"; };
+		CC49A6E01E045FA000880EEA /* BRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRoute.swift; sourceTree = "<group>"; };
 		CC772A641E02A23A0051DD70 /* Buslo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Buslo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC772A671E02A23A0051DD70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC772A691E02A23A0051DD70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +77,14 @@
 		CC772A831E02A23A0051DD70 /* BusloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC772A871E02A23A0051DD70 /* BusloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusloUITests.swift; sourceTree = "<group>"; };
 		CC772A891E02A23A0051DD70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC772A951E02A74A0051DD70 /* BReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BReachability.swift; sourceTree = "<group>"; };
+		CC772A971E02A7A60051DD70 /* BProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BProtocols.swift; sourceTree = "<group>"; };
+		CC772A991E02AD0C0051DD70 /* BUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BUtils.swift; sourceTree = "<group>"; };
+		CC772A9C1E02AE880051DD70 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CC772A9F1E02AEF80051DD70 /* BConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BConstants.swift; sourceTree = "<group>"; };
+		CC772AA21E02C0940051DD70 /* BBusStop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBusStop.swift; sourceTree = "<group>"; };
+		CCE9EE481E051A5200B389D7 /* BLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLocation.swift; sourceTree = "<group>"; };
+		DD6093C8FCFEEA2C4FD212FF /* Pods_BusloTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BusloTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A43743BADE2000F9CA7B74 /* Pods_Buslo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C04F5007E916030B160FC7E /* Pods_BusloTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +108,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8BD1CA8C1D215E20CCD2131 /* Pods_BusloUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		512EC0127584894CF866E457 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D857A35ADF2DFA572BF70F5 /* Pods-Buslo.debug.xcconfig */,
+				7C7ED7D80822525230B90B1A /* Pods-Buslo.release.xcconfig */,
+				86342CF443DE32F72B1B8F22 /* Pods-BusloTests.debug.xcconfig */,
+				7ED1351D337C6523454B5A2A /* Pods-BusloTests.release.xcconfig */,
+				738A1C93D391341A2311430D /* Pods-BusloUITests.debug.xcconfig */,
+				7F7B07A3CF2B131725849803 /* Pods-BusloUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC49A6D81E04145E00880EEA /* views */ = {
+			isa = PBXGroup;
+			children = (
+				CC49A6D91E04147200880EEA /* BusTableViewCell.swift */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		CC49A6DB1E042A3C00880EEA /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				CC49A6DC1E042A5900880EEA /* loader.gif */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
 		CC772A5B1E02A23A0051DD70 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +151,8 @@
 				CC772A7B1E02A23A0051DD70 /* BusloTests */,
 				CC772A861E02A23A0051DD70 /* BusloUITests */,
 				CC772A651E02A23A0051DD70 /* Products */,
+				512EC0127584894CF866E457 /* Pods */,
+				E1B66A901485CF0F8E7537C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +169,17 @@
 		CC772A661E02A23A0051DD70 /* Buslo */ = {
 			isa = PBXGroup;
 			children = (
-				CC772A671E02A23A0051DD70 /* AppDelegate.swift */,
-				CC772A691E02A23A0051DD70 /* ViewController.swift */,
+				CC49A6DB1E042A3C00880EEA /* resources */,
+				CC49A6D81E04145E00880EEA /* views */,
+				CC772AA11E02C0860051DD70 /* models */,
+				CC772A9E1E02AE970051DD70 /* controllers */,
+				CC772A9B1E02ADCE0051DD70 /* supporting */,
 				CC772A6B1E02A23A0051DD70 /* Main.storyboard */,
+				CC772A951E02A74A0051DD70 /* BReachability.swift */,
 				CC772A6E1E02A23A0051DD70 /* Assets.xcassets */,
-				CC772A701E02A23A0051DD70 /* LaunchScreen.storyboard */,
-				CC772A731E02A23A0051DD70 /* Info.plist */,
+				CC772A9F1E02AEF80051DD70 /* BConstants.swift */,
+				CC772A971E02A7A60051DD70 /* BProtocols.swift */,
+				CC772A991E02AD0C0051DD70 /* BUtils.swift */,
 			);
 			path = Buslo;
 			sourceTree = "<group>";
@@ -125,6 +202,48 @@
 			path = BusloUITests;
 			sourceTree = "<group>";
 		};
+		CC772A9B1E02ADCE0051DD70 /* supporting */ = {
+			isa = PBXGroup;
+			children = (
+				CC772A731E02A23A0051DD70 /* Info.plist */,
+				CC772A701E02A23A0051DD70 /* LaunchScreen.storyboard */,
+				CC772A671E02A23A0051DD70 /* AppDelegate.swift */,
+			);
+			name = supporting;
+			sourceTree = "<group>";
+		};
+		CC772A9E1E02AE970051DD70 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC772A691E02A23A0051DD70 /* ViewController.swift */,
+				CC772A9C1E02AE880051DD70 /* HomeViewController.swift */,
+				CC49A6D41E03CF6000880EEA /* BusStopViewController.swift */,
+				CC49A6DE1E043D0200880EEA /* BusDetailsViewController.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		CC772AA11E02C0860051DD70 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				CC772AA21E02C0940051DD70 /* BBusStop.swift */,
+				CC49A6D61E04086000880EEA /* BBus.swift */,
+				CC49A6E01E045FA000880EEA /* BRoute.swift */,
+				CCE9EE481E051A5200B389D7 /* BLocation.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		E1B66A901485CF0F8E7537C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C2F15076BB2980916D3281A /* Pods_Buslo.framework */,
+				DD6093C8FCFEEA2C4FD212FF /* Pods_BusloTests.framework */,
+				A85BE9A63C99EB51D97B354F /* Pods_BusloUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC772A8C1E02A23A0051DD70 /* Build configuration list for PBXNativeTarget "Buslo" */;
 			buildPhases = (
+				43C72B620AB9FB3120E59C12 /* [CP] Check Pods Manifest.lock */,
 				CC772A601E02A23A0051DD70 /* Sources */,
 				CC772A611E02A23A0051DD70 /* Frameworks */,
 				CC772A621E02A23A0051DD70 /* Resources */,
+				FA13EF80DA4ED668227DDA5C /* [CP] Embed Pods Frameworks */,
+				1E4DAF443F193CE4702D7BF9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +271,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC772A8F1E02A23A0051DD70 /* Build configuration list for PBXNativeTarget "BusloTests" */;
 			buildPhases = (
+				7909373E480C207BA0E28CF5 /* [CP] Check Pods Manifest.lock */,
 				CC772A741E02A23A0051DD70 /* Sources */,
 				CC772A751E02A23A0051DD70 /* Frameworks */,
 				CC772A761E02A23A0051DD70 /* Resources */,
+				839732E557160DA2CB1F9D36 /* [CP] Embed Pods Frameworks */,
+				32BA5E7EC1AEC02706E617D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +292,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC772A921E02A23A0051DD70 /* Build configuration list for PBXNativeTarget "BusloUITests" */;
 			buildPhases = (
+				15EDC3C96D86DF1CF93A555A /* [CP] Check Pods Manifest.lock */,
 				CC772A7F1E02A23A0051DD70 /* Sources */,
 				CC772A801E02A23A0051DD70 /* Frameworks */,
 				CC772A811E02A23A0051DD70 /* Resources */,
+				8DE524794181493F6520159A /* [CP] Embed Pods Frameworks */,
+				BDB010FBAD4C93D16030CB33 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC772A721E02A23A0051DD70 /* LaunchScreen.storyboard in Resources */,
+				CC49A6DD1E042A5900880EEA /* loader.gif in Resources */,
 				CC772A6F1E02A23A0051DD70 /* Assets.xcassets in Resources */,
 				CC772A6D1E02A23A0051DD70 /* Main.storyboard in Resources */,
 			);
@@ -257,13 +386,163 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15EDC3C96D86DF1CF93A555A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1E4DAF443F193CE4702D7BF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Buslo/Pods-Buslo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32BA5E7EC1AEC02706E617D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BusloTests/Pods-BusloTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43C72B620AB9FB3120E59C12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7909373E480C207BA0E28CF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		839732E557160DA2CB1F9D36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BusloTests/Pods-BusloTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DE524794181493F6520159A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BusloUITests/Pods-BusloUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDB010FBAD4C93D16030CB33 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BusloUITests/Pods-BusloUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA13EF80DA4ED668227DDA5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Buslo/Pods-Buslo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CC772A601E02A23A0051DD70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CC772A6A1E02A23A0051DD70 /* ViewController.swift in Sources */,
+				CCE9EE491E051A5200B389D7 /* BLocation.swift in Sources */,
+				CC772A961E02A74A0051DD70 /* BReachability.swift in Sources */,
+				CC772A981E02A7A60051DD70 /* BProtocols.swift in Sources */,
+				CC772AA31E02C0940051DD70 /* BBusStop.swift in Sources */,
+				CC49A6DF1E043D0200880EEA /* BusDetailsViewController.swift in Sources */,
+				CC772A9A1E02AD0C0051DD70 /* BUtils.swift in Sources */,
+				CC772AA01E02AEF80051DD70 /* BConstants.swift in Sources */,
+				CC49A6D51E03CF6000880EEA /* BusStopViewController.swift in Sources */,
 				CC772A681E02A23A0051DD70 /* AppDelegate.swift in Sources */,
+				CC772A9D1E02AE880051DD70 /* HomeViewController.swift in Sources */,
+				CC49A6DA1E04147200880EEA /* BusTableViewCell.swift in Sources */,
+				CC49A6D71E04086000880EEA /* BBus.swift in Sources */,
+				CC49A6E11E045FA000880EEA /* BRoute.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,10 +692,12 @@
 		};
 		CC772A8D1E02A23A0051DD70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D857A35ADF2DFA572BF70F5 /* Pods-Buslo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RAHADHP5A7;
 				INFOPLIST_FILE = Buslo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Buslo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,10 +707,12 @@
 		};
 		CC772A8E1E02A23A0051DD70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C7ED7D80822525230B90B1A /* Pods-Buslo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RAHADHP5A7;
 				INFOPLIST_FILE = Buslo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Buslo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +722,7 @@
 		};
 		CC772A901E02A23A0051DD70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86342CF443DE32F72B1B8F22 /* Pods-BusloTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +738,7 @@
 		};
 		CC772A911E02A23A0051DD70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ED1351D337C6523454B5A2A /* Pods-BusloTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +754,7 @@
 		};
 		CC772A931E02A23A0051DD70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 738A1C93D391341A2311430D /* Pods-BusloUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = RAHADHP5A7;
@@ -483,6 +769,7 @@
 		};
 		CC772A941E02A23A0051DD70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F7B07A3CF2B131725849803 /* Pods-BusloUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = RAHADHP5A7;
@@ -514,6 +801,7 @@
 				CC772A8E1E02A23A0051DD70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC772A8F1E02A23A0051DD70 /* Build configuration list for PBXNativeTarget "BusloTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +810,7 @@
 				CC772A911E02A23A0051DD70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC772A921E02A23A0051DD70 /* Build configuration list for PBXNativeTarget "BusloUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +819,7 @@
 				CC772A941E02A23A0051DD70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
